@@ -26,14 +26,10 @@ To bypass the bandwidth limitations of traditional frequency-sweep ODMR, the cod
 ### 4. Signal Processing and Spectral Validation
 The raw optical output undergoes DC background removal and phase inversion to reconstruct the original acoustic waveform into a normalized format. A real-time Fast Fourier Transform (FFT) analysis is then performed. This spectral overlap is critical: it physically validates that, provided the simulated drive current remains within the small-signal regime, the linear transduction holds, completely preventing higher-order harmonic distortions ($n \ge 2$) induced by the Lorentzian curvature.
 
-## Requirements
 
-Install the core dependencies:
-`pip install numpy scipy matplotlib`
 
 ## Execution
 
 1. Place your target `.wav` file in the repository root and update the `FILENAME` variable within the script if necessary.
-2. Execute the solver:
-   `python nv_audio_simulator.py`
+2. Execute the code.
 3. **Outputs:** The algorithm generates a `_recovered.wav` file and displays a three-panel plot comparing the input current waveform, the raw optical output, and their spectral superposition.
