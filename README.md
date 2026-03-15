@@ -10,7 +10,11 @@ The simulation bridges quantum mechanics and signal processing through a rigorou
 The audio-modulated magnetic field $\vec{B}(t)$ fluctuates at acoustic frequencies ($< 20$ kHz), which are orders of magnitude slower than the NV center's electron spin transitions ($\approx 2.87$ GHz). Consequently, the simulation operates strictly under the adiabatic approximation, treating the dynamic system as a continuous succession of instantaneous steady states. 
 
 The quantum state is governed by the Spin-1 ground-state Hamiltonian:
-$$\hat{H}=D\hat{S}_{z}^{2}+\gamma_{NV}\vec{B}(t)\cdot\vec{S}$$
+
+$$
+\hat{H}=D\hat{S}_{z}^{2}+\gamma_{NV}\vec{B}(t)\cdot\vec{S}
+$$
+
 Where $D \approx 2.87$ GHz is the Zero-Field Splitting parameter, $\gamma_{NV} \approx 28$ GHz/T is the electron gyromagnetic ratio, and $\vec{S}$ is the vector of Spin-1 matrices.
 
 ### 2. Matrix Diagonalization and Energy Tracking
