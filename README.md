@@ -6,7 +6,7 @@ This repository provides a numerical proof-of-concept for a continuous-wave Opti
 
 The simulation bridges quantum mechanics and signal processing through a rigorous four-step phenomenological approach:
 
-### 1. Adiabatic Quantum Spin Dynamics
+### 1. Quantum Spin Dynamics
 The audio-modulated magnetic field $\vec{B}(t)$ fluctuates at acoustic frequencies ($< 20$ kHz), which are orders of magnitude slower than the NV center's electron spin transitions ($\approx 2.87$ GHz). Consequently, the simulation operates strictly under the adiabatic approximation, treating the dynamic system as a continuous succession of instantaneous steady states. 
 
 The quantum state is governed by the Spin-1 ground-state Hamiltonian:
@@ -33,3 +33,8 @@ The raw optical output undergoes DC background removal and phase inversion to re
 1. Place your target `.wav` file in the repository root and update the `FILENAME` variable within the script if necessary.
 2. Execute the code.
 3. **Outputs:** The algorithm generates a `_recovered.wav` file and displays a three-panel plot comparing the input current waveform, the raw optical output, and their spectral superposition.
+
+
+## Author
+
+**[Lingwinnie]** Master's Student in [Nanosciences and Nanotechnologies: Nanoscale and Quantum Engineering] at [Aix-Marseille Université].
